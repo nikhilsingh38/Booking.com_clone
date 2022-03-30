@@ -1,5 +1,10 @@
-export const Airport=()=>{
+import { Navbar } from "../Navbar/Navbar"
+export const Airport = () => {
     return (
-        <h1>This is the airport</h1>
+        <>
+            <Navbar></Navbar>
+            <h1>This is the airport</h1>
+        </>
+
     )
 }

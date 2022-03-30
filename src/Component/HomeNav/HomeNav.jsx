@@ -1,9 +1,12 @@
-import './navbar.css';
+
 import { Link } from 'react-router-dom';
-export const Navbar = () => {
+import './newnav.css'
+
+
+export const HomeNav = () => {
     return (
         <>
-            <div className="vai_mainDiv">
+            <div className="vai_newNav">
                 <div id='vai_bookDiv' className="flex">
                     <h2>Booking.com</h2>
                     <div id='vai_logSign'>
@@ -21,14 +24,17 @@ export const Navbar = () => {
                     <Link to={'/car'} className="st">Car Rentals</Link>
                     <Link to={'/attraction'} className="st">Attraction</Link>
                     <Link to={'/airport'} className="st">Airport Taxis</Link>
-
-
                 </div>
+                <div>
+                    <h1>A lifetime of discounts? It's Genius. </h1>
+                    <p>Get rewarded for your travels – unlock instant savings of 10% or more with a free Booking.com account</p>
+                </div>
+
             </div>
 
 
 
-            <div></div>
+
         </>
     )
 }
