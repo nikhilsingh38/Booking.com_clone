@@ -10,7 +10,7 @@ const DeginationData = ({ v }) => {
     }, [v])
     /// const { data } = useFetch(`http://localhost:3001/${page}`);
     const getData = () => {
-        axios.get("https://manishsinghbhadouria.github.io/api/db.json").then((data) => {
+        axios.get("https://booking-team-masai.herokuapp.com/").then((data) => {
 
             if (v === 'Regions') {
                 setData(data.data[0].regions)
