@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom";
-import { HotelDetails } from "../Components/HotelDetails/Components/HotelDetails";
+import { HotelDetails } from "../Components/HotelDetails/HotelDetails";
 import Login from "../Components/Login/Login";
 import { SearchPage } from "../Components/SearchPage/SearchPage";
 import { Home } from "./Home";
