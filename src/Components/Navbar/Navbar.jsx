@@ -133,6 +133,18 @@ export const Navbar = () => {
 
                     </Tabs>
                 </ul>
+              <div className={styles.last}>
+              <h1>A lifetime of discounts? It's Genius.</h1>
+              <p>
+                Get rewarded for your travels – unlock instant savings of 10% or
+                more with a free Booking.com account
+              </p>
+              <ul className={styles.signRegisterButton}>
+                <Link to="/login">
+                  <button>Sign in/ Register</button>
+                </Link>
+              </ul>
+            </div>
             </div>
         </div>
     </div>
