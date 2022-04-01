@@ -21,7 +21,8 @@ const Login = () => {
     setTimeout(() => {
       let data = JSON.parse(localStorage.getItem("login"));
       if (data) {
-        document.location.href = "https://booking-com.netlify.app/";
+        document.location.href =
+          "https://booking-com-clone-nikhilsingh38.vercel.app/";
         alert("You have successfully Logged In");
       }
     }, 5000);
