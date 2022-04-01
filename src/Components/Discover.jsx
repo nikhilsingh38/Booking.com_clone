@@ -13,7 +13,7 @@ const Discover = () => {
 
     }, [])
     const getData = () => {
-        axios.get("https://manishsinghbhadouria.github.io/api/db.json").then((res) => {
+        axios.get("https://booking-team-masai.herokuapp.com/").then((res) => {
             setData(res.data[0].discover);
         })
     }
