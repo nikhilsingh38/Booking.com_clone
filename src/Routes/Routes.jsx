@@ -1,4 +1,8 @@
-import { Switch, Route } from "react-router";
+import { Switch, Route } from "react-router-dom";
+import { HotelDetails } from "../Components/HotelDetails/Components/HotelDetails";
+import Login from "../Components/Login/Login";
+import { SearchPage } from "../Components/SearchPage/SearchPage";
+import { Home } from "./Home";
 
 
 export const Routes = () => {
